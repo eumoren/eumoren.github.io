@@ -4,163 +4,214 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Emmanuel Polycarp Umoren | Commercial &amp; Operations Professional</title>
-<meta name="description" content="Commercial and operations professional with 10+ years in business development, CRM and project coordination. Based in Lagos, working remotely worldwide.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="description" content="Commercial and operations professional with 10+ years in business development, CRM and project coordination. Lagos-based, working remotely worldwide.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f6f7f3;--ink:#17231f;--mute:#56645e;--line:#d5dbd3;--green:#0f4c45;--gold:#b7791f;--card:#ffffff}
-@media (prefers-color-scheme:dark){:root{--bg:#101a17;--ink:#e8eee9;--mute:#9db0a7;--line:#2a3b35;--green:#7cc7b6;--gold:#e3b04b;--card:#16231f}}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
+:root{--bg:#f6f7f3;--ink:#17231f;--mute:#56645e;--line:#d5dbd3;--green:#0f4c45;--gold:#b7791f;--card:#fff;--band:#0f4c45;--bandink:#f6f7f3}
+@media (prefers-color-scheme:dark){:root{--bg:#101a17;--ink:#e8eee9;--mute:#9db0a7;--line:#2a3b35;--green:#7cc7b6;--gold:#e3b04b;--card:#16231f;--band:#16231f;--bandink:#e8eee9}}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
 body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 "Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
 a{color:var(--green);text-underline-offset:3px}
 a:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
-.wrap{max-width:780px;margin:0 auto;padding:0 22px}
-header.top{border-bottom:1px solid var(--line)}
-header.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-top:14px;padding-bottom:14px;flex-wrap:wrap}
-nav a{margin-right:18px;text-decoration:none;color:var(--mute);font-size:15px}
-nav a:hover{color:var(--green)}
-.clock{font-size:14px;color:var(--mute);border:1px solid var(--line);border-radius:999px;padding:4px 14px;background:var(--card)}
-.clock b{color:var(--green);font-variant-numeric:tabular-nums}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
 h1,h2,h3{font-family:"Bricolage Grotesque",Georgia,serif;line-height:1.15;margin:0}
-.hero{padding:56px 0 40px;display:grid;grid-template-columns:150px 1fr;gap:32px;align-items:center}
-.hero img{width:150px;height:150px;border-radius:50%;object-fit:cover;border:3px solid var(--green)}
-.hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:700}
-.hero .role{font-size:1.2rem;color:var(--green);margin:8px 0 14px;font-weight:600}
-.hero p{margin:0 0 18px;max-width:58ch}
+header.top{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-top:12px;padding-bottom:12px;flex-wrap:wrap}
+nav a{margin-right:16px;text-decoration:none;color:var(--mute);font-size:15px}nav a:hover{color:var(--green)}
+.clock{font-size:14px;color:var(--mute);border:1px solid var(--line);border-radius:999px;padding:4px 14px;background:var(--card)}.clock b{color:var(--green);font-variant-numeric:tabular-nums}
+.hero{padding:56px 0 34px;display:grid;grid-template-columns:170px 1fr;gap:36px;align-items:center}
+.hero img{width:170px;height:170px;border-radius:50%;object-fit:cover;border:3px solid var(--green)}
+.hero h1{font-size:clamp(2.1rem,5vw,3.3rem);font-weight:700}
+.role{font-size:1.2rem;color:var(--green);margin:8px 0 14px;font-weight:600}
+.hero p{margin:0 0 18px;max-width:62ch}
 .btns{display:flex;gap:12px;flex-wrap:wrap}
 .btn{display:inline-block;padding:10px 20px;border-radius:6px;background:var(--green);color:var(--bg);text-decoration:none;font-weight:600}
 .btn.alt{background:transparent;color:var(--green);border:1.5px solid var(--green)}
-section{padding:40px 0;border-top:1px solid var(--line)}
-h2{font-size:1.7rem;font-weight:700;margin-bottom:20px}
+.flow{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0 0 56px;padding:0}
+.flow li{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:6px 14px;font-size:15px}
+.flow li+li::before{content:"then";color:var(--gold);font-size:12px;margin-right:10px}
+.band{background:var(--band);color:var(--bandink);overflow:hidden;white-space:nowrap;padding:12px 0}
+.band div{display:inline-block;padding-left:100%;animation:run 38s linear infinite;font-family:"Bricolage Grotesque",Georgia,serif;font-size:1.1rem}
+.band span{margin:0 22px;color:var(--gold)}
+@keyframes run{to{transform:translateX(-100%)}}
+section{padding:54px 0;border-bottom:1px solid var(--line)}
+h2{font-size:1.9rem;font-weight:700;margin-bottom:6px}.lead{color:var(--mute);margin:0 0 26px;max-width:62ch}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:34px}
 .ledger{margin:0;padding:0;list-style:none}
-.ledger li{display:grid;grid-template-columns:minmax(150px,230px) 1fr;gap:6px 24px;padding:12px 0;border-bottom:1px solid var(--line)}
-.ledger strong{font-family:"Bricolage Grotesque",Georgia,serif;font-size:1.15rem;color:var(--green)}
-.ledger span{color:var(--mute)}
-.job{border-left:3px solid var(--line);padding:0 0 26px 22px;position:relative}
-.job:last-child{padding-bottom:0}
+.ledger li{display:grid;grid-template-columns:minmax(150px,230px) 1fr;gap:4px 22px;padding:11px 0;border-bottom:1px solid var(--line)}
+.ledger strong{font-family:"Bricolage Grotesque",Georgia,serif;font-size:1.1rem;color:var(--green)}.ledger span{color:var(--mute)}
+.job{border-left:3px solid var(--line);padding:0 0 22px 22px;position:relative}.job:last-child{padding-bottom:0}
 .job::before{content:"";position:absolute;left:-8px;top:7px;width:13px;height:13px;border-radius:50%;background:var(--bg);border:3px solid var(--green)}
-.job h3{font-size:1.2rem}
-.job .meta{color:var(--mute);font-size:15px;margin:2px 0 8px}
-.job ul{margin:0;padding-left:20px}
-.job li{margin:4px 0}
-.star{display:inline-block;margin-left:8px;font-size:13px;font-weight:600;color:var(--gold);border:1px solid var(--gold);border-radius:4px;padding:0 8px}
-.facts{display:grid;gap:14px}
-.fact{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:16px 20px}
-.fact h3{font-size:1.05rem;margin-bottom:4px}
-.fact p{margin:0;color:var(--mute)}
-.tools{margin:0}
-.tools dt{font-weight:600;margin-top:12px}
-.tools dd{margin:2px 0 0;color:var(--mute)}
-footer{border-top:1px solid var(--line);padding:30px 0 50px;color:var(--mute);font-size:15px}
-@media (max-width:620px){.hero{grid-template-columns:1fr;text-align:left}.ledger li{grid-template-columns:1fr}}
-@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.job h3{font-size:1.15rem}.meta{color:var(--mute);font-size:15px;margin:2px 0 6px}.job ul{margin:0;padding-left:20px}.job li{margin:3px 0}
+.principles{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;counter-reset:p}
+.principle{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:18px 20px;counter-increment:p}
+.principle::before{content:"0" counter(p);font-family:"Bricolage Grotesque",Georgia,serif;color:var(--gold);font-size:1.4rem;font-weight:700}
+.principle h3{font-size:1.1rem;margin:4px 0}.principle p{margin:0;color:var(--mute)}
+.case{display:grid;grid-template-columns:1fr 1.15fr;gap:32px;padding:30px 0;border-top:1px solid var(--line);align-items:start}
+.case h3{font-size:1.4rem;margin-bottom:10px}.case h4{margin:14px 0 2px;font-size:.95rem;color:var(--green)}.case p{margin:0;color:var(--mute)}
+.shots{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.shots button{padding:0;border:1px solid var(--line);border-radius:6px;background:var(--card);cursor:zoom-in;overflow:hidden}
+.shots img{display:block;width:100%;height:auto}.shots .wide{grid-column:span 2}
+.note{font-size:14px;color:var(--mute);margin-top:12px}
+.tools{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.tool{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:16px 20px}
+.tool h3{font-size:1.05rem;margin-bottom:10px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none}
+.chips li{border:1px solid var(--line);border-radius:999px;padding:2px 12px;font-size:14px}
+.certs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.cert{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:16px 18px}
+.cert h3{font-size:1.02rem;margin-bottom:4px}.cert p{margin:0 0 8px;color:var(--mute);font-size:15px}
+dialog{border:0;padding:0;background:transparent;max-width:min(1100px,94vw)}dialog::backdrop{background:rgba(0,0,0,.78)}
+dialog img{width:100%;height:auto;border-radius:6px;display:block}
+dialog button{position:absolute;top:8px;right:8px;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:4px 12px;cursor:pointer;font:inherit}
+footer{padding:28px 0 50px;color:var(--mute);font-size:15px}
+@media (max-width:760px){.hero,.two,.case{grid-template-columns:1fr}.principles{grid-template-columns:1fr}.ledger li{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.band div{animation:none;padding-left:0}}
 </style>
 </head>
 <body>
 <header class="top"><div class="wrap">
-<nav aria-label="Sections"><a href="#impact">Impact</a><a href="#experience">Experience</a><a href="#remote">Working remotely</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+<nav aria-label="Sections"><a href="#top">Home</a><a href="#about">About</a><a href="#work">Work</a><a href="#tools">Tools</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a></nav>
 <div class="clock">Lagos time <b id="t">--:--</b> (WAT, UTC+1)</div>
 </div></header>
 
-<main class="wrap">
+<main id="top">
+<div class="wrap">
 <div class="hero">
 <img src="profile.jpg" alt="Portrait of Emmanuel Polycarp Umoren">
 <div>
 <h1>Emmanuel Polycarp Umoren</h1>
 <div class="role">Commercial and operations professional</div>
-<p>I have spent more than ten years turning client relationships and untidy processes into structured pipelines, signed contracts and repeatable systems, across business development, CRM, procurement, banking and project coordination. I work remotely from Lagos with teams in other time zones.</p>
-<div class="btns"><a class="btn" href="mailto:emmumoren@gmail.com">Email me</a><a class="btn alt" href="https://linkedin.com/in/emmanuel-polyumoren">View LinkedIn</a></div>
+<p>For more than ten years I have turned client relationships and untidy processes into structured pipelines, signed contracts and repeatable systems, across business development, CRM, procurement, banking and project coordination. I work remotely from Lagos with teams in other time zones.</p>
+<div class="btns"><a class="btn" href="mailto:emmumoren@gmail.com">Email me</a><a class="btn alt" href="https://wa.me/2348037804670">WhatsApp</a><a class="btn alt" href="https://linkedin.com/in/emmanuel-polyumoren">LinkedIn</a></div>
 </div>
 </div>
+<ul class="flow" aria-label="How a deal moves through my work"><li>A lead is found</li><li>The pipeline is tracked</li><li>The proposal goes out</li><li>The contract is signed</li><li>The account is followed up</li></ul>
+</div>
+<div class="band" aria-hidden="true"><div>Business development <span>✱</span> CRM and pipelines <span>✱</span> Project coordination <span>✱</span> Remote operations <span>✱</span> Procurement <span>✱</span> AI training data <span>✱</span> Business development <span>✱</span> CRM and pipelines <span>✱</span> Project coordination <span>✱</span> Remote operations <span>✱</span> Procurement <span>✱</span> AI training data <span>✱</span></div></div>
 
-<section id="impact">
-<h2>Impact</h2>
+<section id="about"><div class="wrap">
+<h2>About me</h2>
+<p class="lead">I like work that can be followed from the first request to the final outcome.</p>
+<div class="two">
+<div>
 <ul class="ledger">
-<li><strong>Contracts in the ₦300M+ range</strong><span>Secured as Business &amp; Commercial Supervisor at Julinat Technical Services, through proposals, CRM-driven pipeline tracking and client engagement.</span></li>
-<li><strong>40% portfolio growth</strong><span>Client portfolio grown within two years through lead generation and consistent account follow-through.</span></li>
-<li><strong>50% automated</strong><span>Share of compliance verification moved onto workflow tools, which cut client onboarding time by 20%.</span></li>
-<li><strong>25% faster procurement</strong><span>Lead times reduced by running procurement from vendor sourcing to contract execution.</span></li>
-<li><strong>Contracts in the ₦200M+ range</strong><span>Industrial automation contracts secured at Engineering Automation Technology.</span></li>
-<li><strong>Sub-5% default rate</strong><span>On SME loans in the ₦200M+ range processed at Diamond Bank (now Access Bank).</span></li>
-<li><strong>Star Performer</strong><span>Awarded on the Business Development Remote Internship, run in partnership with Grant Thornton, supported by Rochester Institute of Technology and powered by Excelerate (completed April 9, 2026). <a href="certificates/excelerate-business-development.pdf">View certificate</a>.</span></li>
+<li><strong>₦300M+ range</strong><span>Contracts secured at Julinat Technical Services through proposals, CRM-driven pipeline tracking and client engagement.</span></li>
+<li><strong>40% growth</strong><span>Client portfolio grown within two years.</span></li>
+<li><strong>50% automated</strong><span>Compliance verification moved onto workflow tools; onboarding time down 20%.</span></li>
+<li><strong>25% faster</strong><span>Procurement lead times, from vendor sourcing to contract execution.</span></li>
+<li><strong>Sub-5% default</strong><span>On SME loans in the ₦200M+ range at Diamond Bank (now Access Bank).</span></li>
+<li><strong>Star Performer</strong><span>Excelerate Business Development Remote Internship with Grant Thornton.</span></li>
 </ul>
-</section>
-
-<section id="experience">
-<h2>Experience</h2>
-<div class="job"><h3>Project Management Associate Intern, Excelerate</h3><div class="meta">Remote, global. Supported by Saint Louis University. April to May 2026</div><ul>
-<li>Worked in a 10-member team across 4 time zones to design a 3-month virtual Masterclass framework on Time &amp; Resource Management.</li>
-<li>Produced a full Project Planning Toolkit: WBS, 12-week Gantt chart in Monday.com, Risk Register, and Stakeholder Communication, Resource Management and Team Coordination plans.</li>
-<li>Completed 32 tasks and 4 of 8 milestones in the internship window, keeping the project On-Track.</li>
-<li>Ran a formal 3-tier escalation workflow and handover protocols for continuity across time zones.</li>
-<li>Certificate of achievement for completing the Project Management Associate Early Remote Internship, May 6, 2026. <a href="certificates/excelerate-project-management.pdf">View certificate</a>.</li></ul></div>
-<div class="job"><h3>Business Development Remote Intern, Excelerate<span class="star">Star Performer</span></h3><div class="meta">Remote, global. In partnership with Grant Thornton, supported by Rochester Institute of Technology. March to April 2026</div><ul>
-<li>Delivered competitor intelligence, market landscape research, stakeholder engagement matrices and client pipeline documentation.</li>
-<li>Turned research into actionable BD strategy recommendations under tight deadlines.</li>
-<li>Named Star Performer on completion, April 9, 2026. <a href="certificates/excelerate-business-development.pdf">View certificate</a>.</li></ul></div>
-<div class="job"><h3>Business &amp; Commercial Supervisor, Julinat Technical Services Limited</h3><div class="meta">2019 to March 2026</div><ul>
-<li>Secured contracts in the ₦300M+ range and grew the client portfolio by 40% in two years.</li>
-<li>Automated 50% of compliance verification, cutting onboarding time by 20%, and reduced procurement lead times by 25%.</li>
-<li>Produced KPI reports and market intelligence that informed senior management’s competitive positioning.</li>
-<li>Trained staff on compliance standards, documentation protocols and CRM best practice.</li></ul></div>
-<div class="job"><h3>Business Development Officer, Engineering Automation Technology Ltd</h3><div class="meta">2017 to 2018</div><ul>
-<li>Secured industrial automation contracts in the ₦200M+ range through proposals and technical presentations.</li>
-<li>Coordinated client onboarding and OEM product demonstrations; tracked competitors to sharpen sales strategy.</li></ul></div>
-<div class="job"><h3>Project Manager / Personal Assistant, Lagoon Park Integrated Co. Ltd</h3><div class="meta">2017</div><ul>
-<li>Coordinated property inspection schedules, customer communication and operational planning for senior leadership.</li></ul></div>
-<div class="job"><h3>Affluent Banker, MSME Banker and Customer Service Officer, Diamond Bank Plc (now Access Bank)</h3><div class="meta">2012 to 2016</div><ul>
-<li>Managed high-net-worth client portfolios in the ₦40M+ range and processed SME loans with a sub-5% default rate.</li>
-<li>Exceeded quarterly client acquisition targets by up to 20%.</li></ul></div>
-</section>
-
-<section id="remote">
-<h2>Working remotely</h2>
-<div class="facts">
-<div class="fact"><h3>Time zone</h3><p>Based in Lagos on West Africa Time (UTC+1), with experience coordinating across 4 time zones.</p></div>
-<div class="fact"><h3>Handovers and escalation</h3><p>At Excelerate I ran a 3-tier escalation workflow and written handover protocols so work kept moving between time zones.</p></div>
-<div class="fact"><h3>Tools</h3><p>Slack, Zoom, Microsoft Teams, Google Meet and Loom for communication; Monday.com, Jira, ClickUp, Asana and Trello for planning; Google Workspace for documents.</p></div>
 </div>
-</section>
+<div>
+<div class="job"><h3>Project Management Associate Intern, Excelerate</h3><div class="meta">Apr to May 2026, remote. Supported by Saint Louis University</div><ul><li>10-member team across 4 time zones; 3-tier escalation workflow and handover protocols. Presented the final package.</li></ul></div>
+<div class="job"><h3>Business Development Remote Intern, Excelerate</h3><div class="meta">Mar to Apr 2026, remote. With Grant Thornton, supported by RIT</div><ul><li>Led Team 3, produced most of the deliverables and presented the final analysis. Named Star Performer.</li></ul></div>
+<div class="job"><h3>Business &amp; Commercial Supervisor, Julinat Technical Services</h3><div class="meta">2019 to March 2026</div><ul><li>Proposals, pipeline tracking, procurement, KPI reporting and staff training on compliance and CRM.</li></ul></div>
+<div class="job"><h3>Business Development Officer, Engineering Automation Technology</h3><div class="meta">2017 to 2018</div><ul><li>Industrial automation contracts in the ₦200M+ range; client onboarding and OEM demonstrations.</li></ul></div>
+<div class="job"><h3>Project Manager / Personal Assistant, Lagoon Park Integrated</h3><div class="meta">2017</div><ul><li>Inspection scheduling, customer communication and planning for senior leadership.</li></ul></div>
+<div class="job"><h3>Banker, Diamond Bank Plc (now Access Bank)</h3><div class="meta">2012 to 2016</div><ul><li>High-net-worth portfolios in the ₦40M+ range; exceeded acquisition targets by up to 20%.</li></ul></div>
+</div>
+</div>
+</div></section>
 
-<section id="skills">
-<h2>Skills and tools</h2>
-<dl class="tools">
-<dt>CRM and support</dt><dd>HubSpot, Zoho CRM, Pipedrive, Salesforce, Zendesk, Freshdesk, Intercom</dd>
-<dt>Lead generation and automation</dt><dd>Apollo.io, Lemlist, Zapier, Google Workspace, Loom</dd>
-<dt>Commercial</dt><dd>Business development, proposal and tender writing, pipeline management, client onboarding, procurement and vendor management, KPI reporting, SOP development, compliance</dd>
-<dt>AI training data and annotation</dt><dd>Self-directed training in text annotation, image labelling, content classification and AI response evaluation. Familiar through guided practice with CVAT, Labelbox, Doccano, Prodigy, Scale AI and VGG Image Annotator. Open to remote annotation projects.</dd>
-</dl>
-</section>
+<section><div class="wrap">
+<h2>How I work</h2>
+<p class="lead">Four lessons from planning a 3-month programme in 4 weeks with a 10-person team across 4 time zones.</p>
+<div class="principles">
+<div class="principle"><h3>Clear ownership prevents bottlenecks</h3><p>Every task has a named owner and a backup, so work never waits for someone to decide it is theirs.</p></div>
+<div class="principle"><h3>Global coordination needs structure</h3><p>Written handovers and a 3-tier escalation path keep work moving while teammates sleep.</p></div>
+<div class="principle"><h3>Risk planning protects timelines</h3><p>Risks go in a register with owners and backup plans before they turn into delays.</p></div>
+<div class="principle"><h3>Documentation builds credibility</h3><p>Plans, dashboards and reports that anyone can read at a glance, without asking me.</p></div>
+</div>
+</div></section>
 
-<section id="education">
-<h2>Education and certifications</h2>
-<ul class="ledger">
-<li><strong>B.A. Ed. Geography</strong><span>University of Lagos, 2004 to 2009</span></li>
-<li><strong>In-Demand IT Skills</strong><span>Digital Witch Support Community, February 2026 (Certificate ID DWSC19292). <a href="certificates/digital-witch-in-demand-it-skills.pdf">View certificate</a>.</span></li>
-<li><strong>Virtual Assistance Skills</strong><span>ALX Africa, 10-week programme, September 2025. <a href="certificates/alx-virtual-assistance.png">View certificate</a>, <a href="https://savanna.alxafrica.com/certificates/67eBYn3mJX">verify online</a>.</span></li>
-<li><strong>Generative AI Mastermind</strong><span>Outskill, certificate of completion. <a href="certificates/outskill-generative-ai-mastermind.pdf">View certificate</a>.</span></li>
-<li><strong>ISO 9001:2015</strong><span>QMS Internal Auditing; also Graduate Member, Nigerian Institute of Management</span></li>
-<li><strong>Languages</strong><span>English, Yoruba and Annang / Efik / Ibibio, all fluent</span></li>
-</ul>
-</section>
+<section id="work"><div class="wrap">
+<h2>Selected work</h2>
+<p class="lead">Two Excelerate internship projects in a simulated engagement format, shown with their real slides. I presented the final deck for both. Click an image to enlarge it.</p>
 
-<section id="contact">
+<div class="case">
+<div>
+<h3>Planning a 3-month Masterclass</h3>
+<p class="meta">Project Management Associate internship, Team 2. I presented the final package.</p>
+<h4>The context</h4><p>Design a structured virtual Masterclass programme on Time and Resource Management for students and young professionals, with scope, schedule, resources and monitoring all planned in 4 weeks.</p>
+<h4>What the team built</h4><p>A scope statement, work breakdown structure, 12-week Gantt chart in Monday.com, resource allocation and coordination plans, a risk register, and a monitoring dashboard.</p>
+<h4>Where it ended</h4><p>Overall status On Track: 32 tasks completed, 4 of 8 milestones done, and Phases 1 to 4 at 100%.</p>
+</div>
+<div class="shots">
+<button class="wide" data-src="assets/work/pm-dashboard.jpg" data-alt="Project monitoring dashboard slide"><img src="assets/work/pm-dashboard.jpg" alt="Project monitoring dashboard slide" loading="lazy"></button>
+<button data-src="assets/work/pm-wbs.jpg" data-alt="Work breakdown structure slide"><img src="assets/work/pm-wbs.jpg" alt="Work breakdown structure slide" loading="lazy"></button>
+<button data-src="assets/work/pm-schedule.jpg" data-alt="Project schedule and Gantt timeline slide"><img src="assets/work/pm-schedule.jpg" alt="Project schedule and Gantt timeline slide" loading="lazy"></button>
+<button data-src="assets/work/pm-scope.jpg" data-alt="Project scope summary slide"><img src="assets/work/pm-scope.jpg" alt="Project scope summary slide" loading="lazy"></button>
+<button data-src="assets/work/pm-resources.jpg" data-alt="Resource planning overview slide"><img src="assets/work/pm-resources.jpg" alt="Resource planning overview slide" loading="lazy"></button>
+</div>
+</div>
+
+<div class="case">
+<div>
+<h3>Target client analysis for Grant Thornton China</h3>
+<p class="meta">Business Development internship, Team 3, which I led. Star Performer award.</p>
+<h4>The context</h4><p>A 4-week remote mandate to find and qualify high-value potential clients for Grant Thornton China’s Shanghai and Beijing offices.</p>
+<h4>My role</h4><p>I led the group, produced most of the deliverables myself and presented the final analysis.</p><h4>What was built</h4><p>A 35-firm shortlist (20 law firms, 5 private equity firms, 10 multinationals), a power and interest grid, use case maps, mind maps and a pain-point analysis for three priority firms.</p>
+<h4>What it shows</h4><p>Research turned into a ranked pipeline with a reason, a contact route and a service match for every target.</p>
+</div>
+<div class="shots">
+<button class="wide" data-src="assets/work/bd-summary.jpg" data-alt="Internship summary report slide"><img src="assets/work/bd-summary.jpg" alt="Internship summary report slide" loading="lazy"></button>
+<button data-src="assets/work/bd-grid.jpg" data-alt="Power and interest grid slide"><img src="assets/work/bd-grid.jpg" alt="Power and interest grid slide" loading="lazy"></button>
+<button data-src="assets/work/bd-usecase.jpg" data-alt="Use case mapping slide"><img src="assets/work/bd-usecase.jpg" alt="Use case mapping slide" loading="lazy"></button>
+<button data-src="assets/work/bd-mindmap.jpg" data-alt="Mind map slide"><img src="assets/work/bd-mindmap.jpg" alt="Mind map slide" loading="lazy"></button>
+<button data-src="assets/work/bd-painpoints.jpg" data-alt="Pain points slide"><img src="assets/work/bd-painpoints.jpg" alt="Pain points slide" loading="lazy"></button>
+</div>
+</div>
+<p class="note">Both projects were completed within the Excelerate global internship programme. The Project Management project was a team effort, and the Business Development project was led by me. The firms named are real public organisations, analysed from public information; no engagement with them took place.</p>
+</div></section>
+
+<section id="tools"><div class="wrap">
+<h2>Tools</h2>
+<p class="lead">The right tool is the one that keeps the work visible and the next step clear.</p>
+<div class="tools">
+<div class="tool"><h3>CRM and support</h3><ul class="chips"><li>HubSpot</li><li>Zoho CRM</li><li>Pipedrive</li><li>Salesforce</li><li>Zendesk</li><li>Freshdesk</li><li>Intercom</li></ul></div>
+<div class="tool"><h3>Project and workflow</h3><ul class="chips"><li>Monday.com</li><li>Jira</li><li>ClickUp</li><li>Asana</li><li>Trello</li></ul></div>
+<div class="tool"><h3>Lead generation and outreach</h3><ul class="chips"><li>Apollo.io</li><li>Lemlist</li></ul></div>
+<div class="tool"><h3>Automation and productivity</h3><ul class="chips"><li>Zapier</li><li>Google Workspace</li><li>Loom</li><li>Canva</li></ul></div>
+<div class="tool"><h3>Communication</h3><ul class="chips"><li>Slack</li><li>Zoom</li><li>Microsoft Teams</li><li>Google Meet</li></ul></div>
+<div class="tool"><h3>AI and generative tools</h3><ul class="chips"><li>ChatGPT</li><li>Claude</li><li>Microsoft Copilot</li></ul></div>
+<div class="tool"><h3>AI training data (guided practice)</h3><ul class="chips"><li>CVAT</li><li>Labelbox</li><li>Doccano</li><li>Prodigy</li><li>Scale AI</li><li>VGG Image Annotator</li></ul></div>
+</div>
+</div></section>
+
+<section id="certificates"><div class="wrap">
+<h2>Certificates</h2>
+<p class="lead">Education: B.A. Ed. Geography, University of Lagos (2004 to 2009). Also QMS ISO 9001:2015 Internal Auditing and Graduate Member of the Nigerian Institute of Management. Languages: English, Yoruba and Annang / Efik / Ibibio, all fluent.</p>
+<div class="certs">
+<div class="cert"><h3>Business Development Remote Internship</h3><p>Star Performer. Grant Thornton, RIT and Excelerate. April 9, 2026.</p><a href="certificates/excelerate-business-development.pdf">View certificate</a></div>
+<div class="cert"><h3>Project Management Associate Early Remote Internship</h3><p>Saint Louis University and Excelerate. May 6, 2026.</p><a href="certificates/excelerate-project-management.pdf">View certificate</a></div>
+<div class="cert"><h3>In-Demand IT Skills Training</h3><p>Digital Witch Support Community. February 23, 2026. ID DWSC19292.</p><a href="certificates/digital-witch-in-demand-it-skills.pdf">View certificate</a></div>
+<div class="cert"><h3>Virtual Assistance Skills in the Digital Age</h3><p>ALX Africa, 10-week programme. September 2, 2025.</p><a href="certificates/alx-virtual-assistance.png">View certificate</a> · <a href="https://savanna.alxafrica.com/certificates/67eBYn3mJX">verify online</a></div>
+<div class="cert"><h3>Generative AI Mastermind</h3><p>Outskill, certificate of completion.</p><a href="certificates/outskill-generative-ai-mastermind.pdf">View certificate</a></div>
+</div>
+</div></section>
+
+<section id="contact" style="border-bottom:0"><div class="wrap">
 <h2>Get in touch</h2>
-<p>I’m open to commercial, business development, CRM, operations and AI training data roles, and to consulting work.</p>
-<div class="btns"><a class="btn" href="mailto:emmumoren@gmail.com">emmumoren@gmail.com</a><a class="btn alt" href="https://linkedin.com/in/emmanuel-polyumoren">LinkedIn</a><a class="btn alt" href="https://github.com/eumoren">GitHub</a></div>
-</section>
+<p class="lead">I’m open to commercial, business development, CRM, operations and AI training data roles, and to consulting work. Tell me what you’re working on.</p>
+<div class="btns"><a class="btn" href="mailto:emmumoren@gmail.com">Email me</a><a class="btn alt" href="https://wa.me/2348037804670">WhatsApp</a><a class="btn alt" href="https://linkedin.com/in/emmanuel-polyumoren">LinkedIn</a><a class="btn alt" href="https://github.com/eumoren">GitHub</a></div>
+</div></section>
 </main>
 
 <footer><div class="wrap">© <span id="y">2026</span> Emmanuel Polycarp Umoren. Lagos, Nigeria.</div></footer>
 
+<dialog id="lb"><img id="lbi" alt=""><button id="lbx" aria-label="Close">Close</button></dialog>
 <script>
 (function(){
-  var f=new Intl.DateTimeFormat("en-GB",{hour:"2-digit",minute:"2-digit",timeZone:"Africa/Lagos"});
-  function tick(){document.getElementById("t").textContent=f.format(new Date())}
-  tick();setInterval(tick,30000);
-  document.getElementById("y").textContent=new Date().getFullYear();
+var f=new Intl.DateTimeFormat("en-GB",{hour:"2-digit",minute:"2-digit",timeZone:"Africa/Lagos"});
+function tick(){document.getElementById("t").textContent=f.format(new Date())}tick();setInterval(tick,30000);
+document.getElementById("y").textContent=new Date().getFullYear();
+var d=document.getElementById("lb"),i=document.getElementById("lbi");
+document.querySelectorAll(".shots button").forEach(function(b){b.addEventListener("click",function(){i.src=b.dataset.src;i.alt=b.dataset.alt;d.showModal()})});
+document.getElementById("lbx").addEventListener("click",function(){d.close()});
+d.addEventListener("click",function(e){if(e.target===d)d.close()});
 })();
 </script>
 </body>
